@@ -12,10 +12,10 @@ include('includes/encabezado.php');
         <hr>
     </div>
     <div class="imagen">
-        <img src="../img/baston.jpeg" alt="">
-        <img src="../img/fuente.jpeg" alt="">
-        <img src="../img/admin.jpeg" alt="">
-        <img src="../img/ud.jpeg" alt="">
+        <img src="img/baston.jpeg" alt="">
+        <img src="img/fuente.jpeg" alt="">
+        <img src="img/admin.jpeg" alt="">
+        <img src="img/ud.jpeg" alt="">
     </div>
     
 </div>

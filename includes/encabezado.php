@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Síntesis</title>
-    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@200&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/header-footer.css">
-    <link rel="stylesheet" href="../css/contenido.css">
-    <script src="../scripts/pagina-actual.js" defer></script>
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/contenido.css">
+    <script src="scripts/pagina-actual.js" defer></script>
     
 </head>
 <body>

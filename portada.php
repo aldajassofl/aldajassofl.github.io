@@ -5,8 +5,8 @@ include('includes/encabezado.php');
 ?>
 <div class="portada">
     <div class="imagenes">
-        <img src="../img/tecnm.jpeg" alt="">
-        <img src="../img/logo.png" alt="">
+        <img src="img/tecnm.jpeg" alt="">
+        <img src="img/logo.png" alt="">
     </div>
 
     <div class="titulos">
