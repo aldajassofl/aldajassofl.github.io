@@ -1,0 +1,199 @@
+html {
+    scroll-behavior: smooth;
+}
+/* INICIO INDEX */
+.bienvenida{
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    height: 95vh;
+    
+}
+
+.texto{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/*alineacion vertical*/
+    align-items: start; /* alineacion horizontal*/
+    margin-left: 1em;
+}
+
+.texto h1{
+    font-size: 5rem;
+}
+.texto h2{
+    font-size: 3rem;
+}
+.texto h3{
+    font-size: 2rem;
+}
+.texto hr{
+    visibility: hidden;
+}
+.texto h1,.texto h2,.texto h3{
+    transition: letter-spacing 0.8s,box-shadow 1s;
+    border-radius: 0.01em;
+    
+}
+.texto h1:hover,.texto h2:hover,.texto h3:hover{
+    letter-spacing: 0.08em;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.6);
+}
+
+.imagen{
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5em;
+    
+
+}
+.imagen img{
+    margin: 2em;
+    max-width: 100%; /* Tamaño de imagen proporcional */
+    width: calc(33.33% - 10px);
+    height: auto;
+    object-fit: cover;
+    border-radius: 1em;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.8s,width 0.5s;
+}
+
+.imagen img:hover{
+    max-width: 100%;
+    width: calc(33.9%);
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 1);
+}
+/* FIN INDEX */
+
+/* INICIO PORTADA */
+.portada{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    align-items: center;
+    min-height: 95vh;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    
+}
+.imagenes img{
+    width: 20%;
+}
+
+
+.titulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: letter-spacing 0.8s;
+}
+
+.titulos h3{
+    font-size: 2rem;
+}
+hr{
+    width: 100%;
+    color: black;
+}
+.materia,.actividad,.info-general{
+    transition: letter-spacing 0.8s;
+}
+.materia:hover,.titulos:hover,.actividad:hover,.info-general:hover{
+    letter-spacing: 0.2em;
+}
+.materia h2{
+    font-size: 3rem;
+}
+.actividad h4,.info-general h4{
+    font-size: 1.5rem;
+}
+.info-general,.actividad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* FIN PORTADA */
+
+/* INICIO INTRODUCCIÓN */
+.intro{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    align-items: center;
+    min-height: 95vh;
+}
+.intro-titulo{
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+.intro-titulo h1:hover{
+    letter-spacing: 0.2em;
+}
+.intro-titulo h1{
+    transition: letter-spacing 0.8s;
+}
+
+.intro-texto {
+    height: 90%;
+    width: 80%;
+    transform-origin: top;
+}
+
+.intro-texto p{
+    font-size: 2rem;
+}
+/* FIN INTRODUCCIÓN */
+
+/* INICIO SINTESIS */
+.sintesis{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    align-items: center;
+    min-height: 95vh;
+}
+.sintesis-titulo{
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+.sintesis-titulo h1:hover{
+    letter-spacing: 0.2em;
+}
+.sintesis-titulo h1{
+    transition: letter-spacing 0.8s;
+}
+.sintesis-texto{
+    height: 90%;
+    width: 80%;
+}
+.sintesis-texto p{
+    text-align: justify;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sintesis-texto p{
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+.sintesis-texto p img{
+    width: 50%;
+}
+/* FIN SINTESIS */
