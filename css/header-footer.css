@@ -19,7 +19,7 @@ html {
 }
 
  nav {
-    width: 90vw;
+    width: 85vw;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -80,7 +80,6 @@ html {
     background-color: #0000001a;
     border-radius: 5px;
     color: #F4F4E1;
-    letter-spacing: 0.1vw;
 }
 
 #menu li a {
@@ -88,10 +87,54 @@ html {
     color: #21575e;
     font-size: 1.5rem;
     text-transform: capitalize;
-    transition: color 0.5s,letter-spacing 0.8s,background-color 0.5s;
+    transition: color 0.5s,letter-spacing 0.5s;
 }
 
+/* Estilos para el menú desplegable */
+.actividades {
+    position: relative;
+    display: inline-block;
+    
+}
 
+.actividades-toggle:hover{
+    letter-spacing: 0.1vw;
+    color: #F4F4E1;
+}
+
+.actividades-toggle {
+    cursor: pointer;
+    color: #21575e;
+    text-transform: none;
+    font-size: 1.5rem;
+    transition: letter-spacing 0.5s,color 0.5s;
+}
+
+.actividades:hover .actividades-contenido {
+    display: block;
+    color: #F4F4E1;
+}
+
+.actividades-contenido {
+    display: none;
+    position: absolute;
+    background-color: #ff9d5c;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.actividades-contenido a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #21575e;
+    border-radius: 5px;
+}
+
+.actividades-contenido a:hover {
+    background-color: #0000001a;
+}
 /* ------------- FIN NAVEGADOR ----------------- */
 
 

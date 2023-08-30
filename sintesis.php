@@ -2,7 +2,68 @@
 <?php
 include('includes/encabezado.php');
 ?>
-<div class="sintesis">
+<!-- Portada -->
+<div class="portada" id="portada">
+    
+    <div class="imagenes">
+        <img src="img/tecnm.jpeg" alt="">
+        <img src="img/logo.png" alt="">
+    </div>
+
+    <div class="titulos">
+        <h3>Tecnológico Nacional de México</h3>
+        <h3>Instituto Tecnológico de Tepic</h3>
+        <hr>
+    </div>
+
+    <br>
+
+    <div class="materia">
+        <h2>Interfaces Web</h2>
+        <hr>
+    </div>
+<br>
+    <div class="actividad">
+        <h4>Actividad:</h4>
+        <h4>Síntesis de control de versiones</h4>
+    </div>
+<br>
+    <div class="info-general">
+        <h4>Grupo: 5A</h4>
+        <h4>Docente: ARJONA VIZCAÍNO ISRAEL</h4>
+        <h4>Alumno: JASSO FLORES ALEXIS DANIEL</h4>
+        
+    </div>
+</div>
+<!-- Fin Portada -->
+
+<!-- Introducción -->
+<div class="intro" id="intro">
+    <div class="intro-titulo">
+        <h1>Introducción</h1>
+    </div>
+    <div class="intro-texto">
+        <p>
+            En este sitio web, se realiza una síntesis acerca del control de versiones
+            en Git.
+            <br><br>
+
+            Git fue realizada por la comunidad de desarrollo de Linux con el propósito de contar con su propia
+            herramienta de control de versiones, basada en algunas lecciones que aprendieron mientras usaban BitKeeper.
+            Los objetivos del nuevo sistema fueron velocidad, diseño sencillo, gran soporte para desarrollo no lineal,
+            completamente distribuido y capaz de manejar grandes proyectos como el kernel de Linux, de manera eficiente.
+            <br><br>
+            Desde su nacimiento en el 2005, Git ha evolucionado para ser fácil de usar y conservar sus caracteristicas
+            iniciales y cuenta con un gran sistema de ramificación (branching) para desarrollo no lineal.
+            <br>
+            <img src="https://th.bing.com/th/id/OIP.R1Bi3fNDyYjLsXdg9OqoIAHaEo?pid=ImgDet&rs=1" alt="">
+        </p>
+    </div>
+
+</div>
+<!-- Fin Introducción -->
+<!-- Actividad Sintesis -->
+<div class="sintesis" id="actividad">
     <div class="sintesis-titulo">
         <h1>Git sobre el control de versiones</h1>
     </div>
@@ -75,7 +136,7 @@ include('includes/encabezado.php');
 
     </div>
 </div>
-
+<!-- Fin Actividad Sintesis -->
 
 <!-- Incluir pie de página -->
 <?php

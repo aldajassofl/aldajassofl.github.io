@@ -1,6 +1,14 @@
 html {
     scroll-behavior: smooth;
 }
+
+:target::before {
+    content: "";
+    display: block;
+    height: 20vh; /* Altura del contenido fijo en la parte superior */
+    margin: -10vh 0 0; /* Margen negativo para compensar la altura */
+}
+
 /* INICIO INDEX */
 .bienvenida{
     display: flex;
@@ -53,7 +61,7 @@ html {
 }
 .imagen img{
     margin: 2em;
-    max-width: 100%; /* Tamaño de imagen proporcional */
+    max-width: 100%;
     width: calc(33.33% - 10px);
     height: auto;
     object-fit: cover;
@@ -159,7 +167,7 @@ hr{
 }
 /* FIN INTRODUCCIÓN */
 
-/* INICIO SINTESIS */
+/* INICIO ACTIVIDAD */
 .sintesis{
     display: flex;
     align-items: stretch;
