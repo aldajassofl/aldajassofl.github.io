@@ -37,11 +37,18 @@ html {
    width: 4em;
 }
 
+.logo h2 a:hover{
+    color: white;
+    letter-spacing: 0.1vw;
+}
+
 .logo h2 a{
-    font-family: "Pacifico", serif;
+    
     text-decoration: none;
     color: black;
+    transition: color 0.5s, letter-spacing 0.5s;
 }
+
 
 .info{
     size: 1rem;
