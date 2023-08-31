@@ -85,7 +85,7 @@ html {
     align-items: stretch;
     flex-direction: column;
     align-items: center;
-    min-height: 95vh;
+    min-height: 100vh;
 }
 
 .imagenes{
@@ -142,7 +142,7 @@ hr{
     align-items: stretch;
     flex-direction: column;
     align-items: center;
-    min-height: 95vh;
+    margin-block: 5vw;
 }
 .intro-titulo{
     height: 10%;
@@ -163,11 +163,11 @@ hr{
 }
 
 .intro-texto p{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 /* FIN INTRODUCCIÓN */
 
-/* INICIO ACTIVIDAD */
+/* INICIO SINTESIS */
 .sintesis{
     display: flex;
     align-items: stretch;
@@ -192,16 +192,103 @@ hr{
 }
 .sintesis-texto p{
     text-align: justify;
-    font-size: 1.2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.sintesis-texto p{
     font-size: 1.4rem;
     line-height: 1.5;
 }
+
 .sintesis-texto p img{
     width: 50%;
 }
 /* FIN SINTESIS */
+
+/* INICIO CUADRO COMPARATIVO */
+.cuadro-comparativo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabla-comparativa{
+    border-collapse: collapse;
+    margin-block: 2vw;
+    width: 80%;
+    table-layout: fixed;
+    box-shadow: 0 1em 1em rgba(0, 0, 0, 0.5);
+}
+.tabla-comparativa th{
+    padding: 1vw;
+    font-size: 1.5rem;
+}
+.tabla-comparativa thead{
+    vertical-align: top;
+    height: 16em;
+}
+.tabla-comparativa tr > th:nth-child(odd){
+    background-color: #6A9ECB;
+}
+.tabla-comparativa tr > th:nth-child(even){
+    background-color: #D4E5FF;
+}
+
+.tabla-comparativa tbody tr:nth-child(even){
+    border-bottom: #FFA500 0.2em solid;
+}
+.tabla-comparativa tbody tr:nth-child(odd){
+    border-bottom: #7bd2f8    0.2em solid;
+}
+.tabla-comparativa td:nth-child(even){
+    background-color: #D4E5FF; 
+}
+.tabla-comparativa td:nth-child(odd){
+    background-color: #6A9ECB; 
+}
+/* Hover del div de los titulos */
+.tabla-titulos:hover img{
+    margin-bottom: 0.4em;
+    width: 6em;
+} 
+.tabla-titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Imagenes de los titulos */
+.tabla-titulos img{
+    width: 5em;
+    transition: width 0.5s, margin-bottom 0.5s;
+    box-shadow: 0 0.3em 0.3em rgba(0, 0, 0, 0.5);
+    margin-bottom: 0.3em;
+}
+.tabla-comparativa td{
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.tabla-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+
+/* Imagenes del contenido */
+.tabla-comparativa tr td img:hover{
+    width: 7em;
+    height: 7em;
+}
+.tabla-comparativa tr td img{
+    width: 5em;
+    height: 5em;
+    object-fit: cover;
+    transition: width 0.5s, height 0.5s;
+}
+/* FIN CUADRO COMPARATIVO */
