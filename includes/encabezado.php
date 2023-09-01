@@ -8,7 +8,7 @@ $pagina_actual = basename($_SERVER['PHP_SELF']);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Síntesis</title>
+    <title>Actividades</title>
     <link rel="stylesheet" href="css/header-footer.css">
     <link rel="stylesheet" href="css/contenido.css">
     <script src="scripts/pagina-actual.js" defer></script>
