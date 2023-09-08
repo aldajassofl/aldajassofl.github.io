@@ -54,7 +54,7 @@ include('includes/encabezado.php');
 <!-- Actividad -->
 <div class="comandos-git" id="actividad">
     <div class="intro-titulo">
-        <h1>Cuadro Comparativo</h1>
+        <h1>Comandos de Git</h1>
     </div>
 
     <table class="tabla-comandos">
@@ -121,25 +121,10 @@ include('includes/encabezado.php');
                         limitar la actualización al directorio actual y sus subdirectorios).
                     </div>
                 </td>
-                <td class="consola">
+                <td >
                     Añade el contenido de todos los ficheros *.txt`del directorio `Documentation y sus
                     subdirectorios:
-                    <b>git add Documentation/\*.txt</b>
-                </td>
-            </tr>
-            <!-- fin fila -->
-            <!-- inicio fila -->
-            <tr> 
-                <td class="consola">git-add</td>
-                <td>Añadir contenido de un fichero al índice</td>
-                <td class="ver-texto">
-                    <div class="parametros consola">
-                    </div>
-                </td>
-                <td class="consola">
-                    Añade el contenido de todos los ficheros *.txt`del directorio `Documentation y sus
-                    subdirectorios:
-                    <b>git add Documentation/\*.txt</b>
+                    <b class="consola">git add Documentation/\*.txt</b>
                 </td>
             </tr>
             <!-- fin fila -->
