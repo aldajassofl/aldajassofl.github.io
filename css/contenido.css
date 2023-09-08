@@ -368,6 +368,7 @@ hr {
 
 .cabezera-comandos th {
     background-color: #ff9d5c;
+    height: 3em;
 }
 
 .cuerpo-comandos td {
