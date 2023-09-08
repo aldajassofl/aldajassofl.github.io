@@ -37,6 +37,7 @@ $pagina_actual = basename($_SERVER['PHP_SELF']);
                 }
                 //Cierre de else
                 ?>
+                <!-- Lista de actividades -->
                 <li>
                     <div class="actividades">
                         <span class="actividades-toggle">Actividades</span>
@@ -44,6 +45,7 @@ $pagina_actual = basename($_SERVER['PHP_SELF']);
                             <!-- links a las actividades -->
                             <a href="sintesis.php">Síntesis</a>
                             <a href="cuadro-comparativo.php">Cuadro comparativo</a>
+                            <a href="comandos-git.php">Comandos de Git</a>
                         </div>
                     </div>
                 </li>

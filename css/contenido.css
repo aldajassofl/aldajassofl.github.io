@@ -5,61 +5,75 @@ html {
 :target::before {
     content: "";
     display: block;
-    height: 20vh; /* Altura del contenido fijo en la parte superior */
-    margin: -10vh 0 0; /* Margen negativo para compensar la altura */
+    height: 20vh;
+    /* Altura del contenido fijo en la parte superior */
+    margin: -10vh 0 0;
+    /* Margen negativo para compensar la altura */
 }
 
 /* INICIO INDEX */
-.bienvenida{
+.bienvenida {
     display: flex;
     align-items: stretch;
     flex-direction: row;
     height: 95vh;
-    
+
 }
 
-.texto{
+.texto {
     width: 30vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;/*alineacion vertical*/
-    align-items: start; /* alineacion horizontal*/
+    justify-content: center;
+    /*alineacion vertical*/
+    align-items: start;
+    /* alineacion horizontal*/
     margin-left: 1em;
 }
 
-.texto h1{
+.texto h1 {
     font-size: 5rem;
 }
-.texto h2{
+
+.texto h2 {
     font-size: 3rem;
 }
-.texto h3{
+
+.texto h3 {
     font-size: 2rem;
 }
-.texto hr{
+
+.texto hr {
     visibility: hidden;
 }
-.texto h1,.texto h2,.texto h3{
-    transition: letter-spacing 0.8s,box-shadow 1s;
+
+.texto h1,
+.texto h2,
+.texto h3 {
+    transition: letter-spacing 0.8s, box-shadow 1s;
     border-radius: 0.01em;
-    
+
 }
-.texto h1:hover,.texto h2:hover,.texto h3:hover{
+
+.texto h1:hover,
+.texto h2:hover,
+.texto h3:hover {
     letter-spacing: 0.08em;
     box-shadow: 0px 5px rgba(0, 0, 0, 0.6);
 }
 
-.imagen{
+.imagen {
     width: 70vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     gap: 5em;
-    
+
 
 }
-.imagen img{
+
+.imagen img {
     margin: 2em;
     max-width: 100%;
     width: calc(33.33% - 10px);
@@ -67,20 +81,21 @@ html {
     object-fit: cover;
     border-radius: 1em;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6);
-    transition: box-shadow 0.8s,width 0.5s;
+    transition: box-shadow 0.8s, width 0.5s;
 }
 
-.imagen img:hover{
+.imagen img:hover {
     max-width: 100%;
     width: calc(33.9%);
     height: auto;
     object-fit: cover;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 1);
 }
+
 /* FIN INDEX */
 
 /* INICIO PORTADA */
-.portada{
+.portada {
     display: flex;
     align-items: stretch;
     flex-direction: column;
@@ -88,46 +103,60 @@ html {
     min-height: 100vh;
 }
 
-.imagenes{
+.imagenes {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 80%;
-    
+
 }
-.imagenes img{
+
+.imagenes img {
     width: 20%;
 }
 
 
-.titulos{
+.titulos {
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: letter-spacing 0.8s;
 }
 
-.titulos h3{
+.titulos h3 {
     font-size: 2rem;
 }
-hr{
+
+hr {
     width: 100%;
     color: black;
 }
-.materia,.actividad,.info-general{
+
+.materia,
+.actividad,
+.info-general {
     transition: letter-spacing 0.8s;
 }
-.materia:hover,.titulos:hover,.actividad:hover,.info-general:hover{
+
+.materia:hover,
+.titulos:hover,
+.actividad:hover,
+.info-general:hover {
     letter-spacing: 0.2em;
 }
-.materia h2{
+
+.materia h2 {
     font-size: 3rem;
 }
-.actividad h4,.info-general h4{
+
+.actividad h4,
+.info-general h4 {
     font-size: 1.5rem;
 }
-.info-general,.actividad{
+
+.info-general,
+.actividad {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,22 +166,25 @@ hr{
 /* FIN PORTADA */
 
 /* INICIO INTRODUCCIÓN */
-.intro{
+.intro {
     display: flex;
     align-items: stretch;
     flex-direction: column;
     align-items: center;
     margin-block: 5vw;
 }
-.intro-titulo{
+
+.intro-titulo {
     height: 10%;
     display: flex;
     align-items: center;
 }
-.intro-titulo h1:hover{
+
+.intro-titulo h1:hover {
     letter-spacing: 0.2em;
 }
-.intro-titulo h1{
+
+.intro-titulo h1 {
     transition: letter-spacing 0.8s;
 }
 
@@ -162,35 +194,41 @@ hr{
     transform-origin: top;
 }
 
-.intro-texto p{
+.intro-texto p {
     font-size: 1.5rem;
 }
+
 /* FIN INTRODUCCIÓN */
 
 /* INICIO SINTESIS */
-.sintesis{
+.sintesis {
     display: flex;
     align-items: stretch;
     flex-direction: column;
     align-items: center;
     min-height: 95vh;
 }
-.sintesis-titulo{
+
+.sintesis-titulo {
     height: 10%;
     display: flex;
     align-items: center;
 }
-.sintesis-titulo h1:hover{
+
+.sintesis-titulo h1:hover {
     letter-spacing: 0.2em;
 }
-.sintesis-titulo h1{
+
+.sintesis-titulo h1 {
     transition: letter-spacing 0.8s;
 }
-.sintesis-texto{
+
+.sintesis-texto {
     height: 90%;
     width: 80%;
 }
-.sintesis-texto p{
+
+.sintesis-texto p {
     text-align: justify;
     display: flex;
     flex-direction: column;
@@ -199,59 +237,69 @@ hr{
     line-height: 1.5;
 }
 
-.sintesis-texto p img{
+.sintesis-texto p img {
     width: 50%;
 }
+
 /* FIN SINTESIS */
 
 /* INICIO CUADRO COMPARATIVO */
-.cuadro-comparativo{
+.cuadro-comparativo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.tabla-comparativa{
+.tabla-comparativa {
     border-collapse: collapse;
     margin-block: 2vw;
     width: 80%;
     table-layout: fixed;
     box-shadow: 0 1em 1em rgba(0, 0, 0, 0.5);
 }
-.tabla-comparativa th{
+
+.tabla-comparativa th {
     padding: 1vw;
     font-size: 1.5rem;
 }
-.tabla-comparativa thead{
+
+.tabla-comparativa thead {
     vertical-align: top;
     height: 16em;
 }
-.tabla-comparativa tr > th:nth-child(odd){
+
+.tabla-comparativa tr>th:nth-child(odd) {
     background-color: #6A9ECB;
 }
-.tabla-comparativa tr > th:nth-child(even){
+
+.tabla-comparativa tr>th:nth-child(even) {
     background-color: #D4E5FF;
 }
 
-.tabla-comparativa tbody tr:nth-child(even){
+.tabla-comparativa tbody tr:nth-child(even) {
     border-bottom: #FFA500 0.2em solid;
 }
-.tabla-comparativa tbody tr:nth-child(odd){
-    border-bottom: #7bd2f8    0.2em solid;
+
+.tabla-comparativa tbody tr:nth-child(odd) {
+    border-bottom: #7bd2f8 0.2em solid;
 }
-.tabla-comparativa td:nth-child(even){
-    background-color: #D4E5FF; 
+
+.tabla-comparativa td:nth-child(even) {
+    background-color: #D4E5FF;
 }
-.tabla-comparativa td:nth-child(odd){
-    background-color: #6A9ECB; 
+
+.tabla-comparativa td:nth-child(odd) {
+    background-color: #6A9ECB;
 }
+
 /* Hover del div de los titulos */
-.tabla-titulos:hover img{
+.tabla-titulos:hover img {
     margin-bottom: 0.4em;
     width: 6em;
-} 
-.tabla-titulos{
+}
+
+.tabla-titulos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -259,19 +307,21 @@ hr{
 }
 
 /* Imagenes de los titulos */
-.tabla-titulos img{
+.tabla-titulos img {
     width: 5em;
     transition: width 0.5s, margin-bottom 0.5s;
     box-shadow: 0 0.3em 0.3em rgba(0, 0, 0, 0.5);
     margin-bottom: 0.3em;
 }
-.tabla-comparativa td{
+
+.tabla-comparativa td {
     font-size: 1.5rem;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
-.tabla-texto{
+
+.tabla-texto {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,14 +331,84 @@ hr{
 
 
 /* Imagenes del contenido */
-.tabla-comparativa tr td img:hover{
+.tabla-comparativa tr td img:hover {
     width: 7em;
     height: 7em;
 }
-.tabla-comparativa tr td img{
+
+.tabla-comparativa tr td img {
     width: 5em;
     height: 5em;
     object-fit: cover;
     transition: width 0.5s, height 0.5s;
 }
+
 /* FIN CUADRO COMPARATIVO */
+
+/* INICIO COMANDOS GIT */
+.comandos-git {
+    border: black 4px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .tabla-comandos, .cabezera-comandos th, .cuerpo-comandos td {
+    border: black 1px solid;
+} */
+.tabla-comandos {
+    width: 80%;
+    /* table-layout: fixed; */
+    /* border: red 3px solid; */
+    border-collapse: collapse;
+    /*Hace que no se vea el borde rojo*/
+    font-size: 1.5em;
+}
+
+.cabezera-comandos th {
+    /* border: turquoise 3px solid;  */
+    background-color: #ff9d5c;
+}
+
+.cuerpo-comandos td {
+    border: blue 3px solid;
+    vertical-align: top;
+    text-align: justify;
+    padding-inline: 0.5em;
+    padding-block: 1em;
+}
+
+.cuerpo-comandos td.ver-texto {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.cuerpo-comandos .parametros {
+    height: 6em;
+    white-space: pre-line;
+    transition: display 1s;
+}
+
+/* .cuerpo-comandos .ver-texto {
+    cursor: pointer;
+}
+.cuerpo-comandos td:hover .parametros {
+    display: block;
+    cursor: pointer;
+    
+} */
+
+.cuerpo-comandos tr:nth-child(even) {
+    background-color: #f8c566;
+}
+
+.cuerpo-comandos tr:nth-child(odd) {
+    background-color: #ffe5b5;
+}
+
+.cuerpo-comandos .consola {
+    /* Comando y Ejemplo */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* FIN COMANDOS GIT */
