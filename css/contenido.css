@@ -178,6 +178,8 @@ hr {
     height: 10%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .intro-titulo h1:hover {
@@ -347,33 +349,29 @@ hr {
 
 /* INICIO COMANDOS GIT */
 .comandos-git {
-    border: black 4px solid;
+    /* border: black 4px solid; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding-block: 2em;
 }
 
-/* .tabla-comandos, .cabezera-comandos th, .cuerpo-comandos td {
-    border: black 1px solid;
-} */
 .tabla-comandos {
-    width: 80%;
-    /* table-layout: fixed; */
-    /* border: red 3px solid; */
+    width: 90%;
+    table-layout: auto;
     border-collapse: collapse;
-    /*Hace que no se vea el borde rojo*/
-    font-size: 1.5em;
+    font-size: 1.4em;
+    overflow: hidden;
+    box-shadow: 0 0.3em 0.3em rgba(0, 0, 0, 0.5);
 }
 
 .cabezera-comandos th {
-    /* border: turquoise 3px solid;  */
     background-color: #ff9d5c;
 }
 
 .cuerpo-comandos td {
-    border: blue 3px solid;
     vertical-align: top;
-    text-align: justify;
     padding-inline: 0.5em;
     padding-block: 1em;
 }
@@ -386,17 +384,7 @@ hr {
 .cuerpo-comandos .parametros {
     height: 6em;
     white-space: pre-line;
-    transition: display 1s;
 }
-
-/* .cuerpo-comandos .ver-texto {
-    cursor: pointer;
-}
-.cuerpo-comandos td:hover .parametros {
-    display: block;
-    cursor: pointer;
-    
-} */
 
 .cuerpo-comandos tr:nth-child(even) {
     background-color: #f8c566;
@@ -407,8 +395,8 @@ hr {
 }
 
 .cuerpo-comandos .consola {
-    /* Comando y Ejemplo */
     font-family: 'Courier New', Courier, monospace;
+    white-space: pre-line;
 }
 
 /* FIN COMANDOS GIT */
