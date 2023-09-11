@@ -574,6 +574,22 @@ include('includes/encabezado.php');
 </div>
 <!-- Fin Actividad -->
 
+<!-- Conclusión -->
+<div class="intro" id="conclusion">
+    <div class="intro-titulo">
+        <h1>Conclusión</h1>
+    </div>
+    <div class="intro-texto">
+        <p>
+            Puedo concluir que los comandos de Git nos sirven para tener una buena administración en nuestro repositorio
+            local, para así poder subirlo a nuestro repositorio en línea, así que mientras más organizados tengamos
+            nuestros commits, mejor será la gestión de estos y por ende será más fácil revertir cambios. Por eso son
+            importantes saber los comandos.
+        </p>
+    </div>
+
+</div>
+<!-- Fin Conclusión -->
 
 <!-- Incluir pie de página -->
 <?php
